@@ -45,6 +45,14 @@
 
             ///Console.WriteLine(pages);
             #endregion
+
+            #region Question08
+            ///double[] prices = { 25.5, 40.0 };
+
+            ///ReplaceArray(ref prices);
+
+            ///Console.WriteLine(prices.Length);
+            #endregion
         }
         #region Ouestion03
         ///  static void PrintWelcomeMessage()
@@ -78,6 +86,13 @@
         ///static void AddBonusPagesByRef(ref int pages)
         ///{
         ///    pages += 50;
+        ///}
+        #endregion
+
+        #region Question08
+        ///static void ReplaceArray(ref double[] prices)
+        ///{
+        ///    prices = new double[] { 10.0, 12.5, 15.0 };
         ///}
         #endregion
     }
