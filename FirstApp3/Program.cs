@@ -19,13 +19,20 @@
             ///  Console.WriteLine(shelfCopies[1, 0]);
             #endregion
 
-          
+         
         }
         #region Ouestion03
         ///  static void PrintWelcomeMessage()
         ////  {
         ///   Console.WriteLine("Welcome to the Library!");
         /// }
+        #endregion
+
+        #region Ouestion04
+       /// static void PrintBookTitle(string title)
+       /// {
+       ///     Console.WriteLine("Book title: " + title);
+      ///  }
         #endregion
     }
 }
