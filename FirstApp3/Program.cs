@@ -30,7 +30,13 @@
             ///Console.WriteLine(pages);
             #endregion
 
+            #region Question06
+            /// double[] prices = { 25.5, 40.0 };
 
+            ///ApplyDiscount(prices);
+
+            ///Console.WriteLine(prices[0]);
+            #endregion
         }
         #region Ouestion03
         ///  static void PrintWelcomeMessage()
@@ -53,11 +59,11 @@
         ///}
         #endregion
 
-
-        static void ApplyDiscount(double[] prices)
-        {
-            prices[0] -= 5;
-        }
-
+        #region Question06
+        ///static void ApplyDiscount(double[] prices)
+        ///{
+        ///    prices[0] -= 5;
+        ///}
+        #endregion
     }
 }
