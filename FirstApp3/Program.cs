@@ -29,6 +29,8 @@
 
             ///Console.WriteLine(pages);
             #endregion
+
+
         }
         #region Ouestion03
         ///  static void PrintWelcomeMessage()
@@ -45,11 +47,17 @@
         #endregion
 
         #region Question05
-       /// static void AddBonusPages(int pages)
-       /// {
-       ///     pages += 50;
+        /// static void AddBonusPages(int pages)
+        /// {
+        ///     pages += 50;
         ///}
         #endregion
+
+
+        static void ApplyDiscount(double[] prices)
+        {
+            prices[0] -= 5;
+        }
 
     }
 }
