@@ -19,7 +19,16 @@
             ///  Console.WriteLine(shelfCopies[1, 0]);
             #endregion
 
-         
+            /// PrintWelcomeMessage();
+            /// PrintBookTitle("Clean Code");
+            /// 
+            #region Question05
+            ///int pages = 400;
+
+            ///AddBonusPages(pages);
+
+            ///Console.WriteLine(pages);
+            #endregion
         }
         #region Ouestion03
         ///  static void PrintWelcomeMessage()
@@ -29,10 +38,18 @@
         #endregion
 
         #region Ouestion04
-       /// static void PrintBookTitle(string title)
-       /// {
-       ///     Console.WriteLine("Book title: " + title);
-      ///  }
+        /// static void PrintBookTitle(string title)
+        /// {
+        ///     Console.WriteLine("Book title: " + title);
+        ///  }
         #endregion
+
+        #region Question05
+       /// static void AddBonusPages(int pages)
+       /// {
+       ///     pages += 50;
+        ///}
+        #endregion
+
     }
 }
