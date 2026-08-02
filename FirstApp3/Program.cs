@@ -37,6 +37,14 @@
 
             ///Console.WriteLine(prices[0]);
             #endregion
+
+            #region Question07
+            ///int pages = 400;
+
+            ///AddBonusPagesByRef(ref pages);
+
+            ///Console.WriteLine(pages);
+            #endregion
         }
         #region Ouestion03
         ///  static void PrintWelcomeMessage()
@@ -66,5 +74,12 @@
         ///}
         #endregion
 
+
+        #region Question07
+        ///static void AddBonusPagesByRef(ref int pages)
+        ///{
+        ///    pages += 50;
+        ///}
+        #endregion
     }
 }
