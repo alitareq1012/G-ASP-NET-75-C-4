@@ -66,6 +66,14 @@
             //    Console.WriteLine("Book not found");
             //}
             #endregion
+
+            #region Question092
+           // PrintBookInfo("Clean Code");
+
+           // PrintBookInfo("The Pragmatic Programmer", 320);
+            #endregion
+
+
         }
         #region Ouestion03
         ///  static void PrintWelcomeMessage()
@@ -109,7 +117,6 @@
         ///}
         #endregion
 
-
         #region Question09
         //static bool TryGetPrice(string title, out double price)
         //{
@@ -125,5 +132,14 @@
         //    }
         //}
         #endregion
+
+        #region Question092
+        //static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine("Title: " + title);
+        //    Console.WriteLine("Pages: " + pages);
+        //}
+        #endregion
+
     }
 }
