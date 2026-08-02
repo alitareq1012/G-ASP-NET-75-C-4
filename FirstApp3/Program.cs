@@ -68,10 +68,12 @@
             #endregion
 
             #region Question092
-           // PrintBookInfo("Clean Code");
+            // PrintBookInfo("Clean Code");
 
-           // PrintBookInfo("The Pragmatic Programmer", 320);
+            // PrintBookInfo("The Pragmatic Programmer", 320);
             #endregion
+
+          //  PrintBookInfo(pages: 350, title: "Clean Code");
 
 
         }
@@ -141,5 +143,13 @@
         //}
         #endregion
 
+        #region Question10
+        //static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine("Title: " + title);
+        //    Console.WriteLine("Pages: " + pages);
+
+        //}
+        #endregion
     }
 }
