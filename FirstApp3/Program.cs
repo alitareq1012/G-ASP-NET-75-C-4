@@ -73,7 +73,10 @@
             // PrintBookInfo("The Pragmatic Programmer", 320);
             #endregion
 
-          //  PrintBookInfo(pages: 350, title: "Clean Code");
+            //  PrintBookInfo(pages: 350, title: "Clean Code");
+
+           // PrintAllTitles("Clean Code", "The Pragmatic Programmer", "Refactoring");
+        
 
 
         }
@@ -148,6 +151,17 @@
         //{
         //    Console.WriteLine("Title: " + title);
         //    Console.WriteLine("Pages: " + pages);
+
+        //}
+        #endregion
+
+        #region Question11
+        //static void PrintAllTitles(params string[] titles)
+        //{
+        //    foreach (string title in titles)
+        //    {
+        //        Console.WriteLine(title);
+        //    }
 
         //}
         #endregion
